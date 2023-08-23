@@ -25,7 +25,7 @@ source("app/opti_borde_70.R")
 
 shinyApp(
   ui = dashboardPage(
-    header = dashboardHeader(title = ""),
+    header = dashboardHeader(title = "Sistema de gestión logistico Bike"),
     sidebar = dashboardSidebar(width = "280px",
       # skin = "light",
       # inputId = "sidebarState",
